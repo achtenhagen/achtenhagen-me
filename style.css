@@ -215,7 +215,13 @@ p { line-height: 25px }
 
 #skills ul li a { color: blue }
 
-footer { height: 60px }
+#org a { color: blue }
+
+footer {
+	font-size: 14px;
+	margin: 60px 0 30px 0;
+	text-align: center;
+}
 
 @media (-webkit-min-device-pixel-ratio: 1.5),
 (min-device-pixel-ratio: 1.5),
