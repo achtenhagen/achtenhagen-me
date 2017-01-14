@@ -217,7 +217,7 @@ footer {
 
 @media only screen 
 	and (min-device-width: 768px) 
-	and (max-device-width: 2732px) {
+	and (max-device-width: 1366px) {
 		header {
 			background: url('images/header-ipad.jpg') no-repeat center center;
 			background-size: cover;
