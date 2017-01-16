@@ -112,21 +112,21 @@ header .overlay {
 #intro ul li {
 	background: url('../images/social-links.png');
 	display: inline-block;
-	height: 35px;
+	height: 40px;
 	margin-right: 14px;
-	width: 35px
+	width: 40px
 }
 #intro ul li:last-child { margin-right: 0 }
 #intro ul li.github   { background-position: 0 0 }
-#intro ul li.linkedin { background-position: -35px 0 }
-#intro ul li.facebook { background-position: -70px 0 }
-#intro ul li.twitter  { background-position: -105px 0 }
-#intro ul li.email    { background-position: -140px 0 }
+#intro ul li.linkedin { background-position: -40px 0 }
+#intro ul li.facebook { background-position: -80px 0 }
+#intro ul li.twitter  { background-position: -120px 0 }
+#intro ul li.email    { background-position: -160px 0 }
 
 #intro ul li a {
 	display: block;
-	height: 35px;
-	width: 35px
+	height: 40px;
+	width: 40px
 }
 
 #intro p {
@@ -229,7 +229,7 @@ footer {
 (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 	#intro ul li {
 		background: url('../images/social-links@2x.png');
-		background-size: 175px 35px
+		background-size: 200px 40px
 	}
 	#intro p {
 		font-family: 'Geomanist', Helvetica, sans-serif;
