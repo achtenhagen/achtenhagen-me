@@ -208,7 +208,7 @@ footer {
 		
 		#intro {
 			font-size: 14px;
-			padding: 0px
+			padding: 0
 		}	
 		
 		#skills ul { list-style-position: outside }
@@ -233,6 +233,6 @@ footer {
 	}
 	#intro p {
 		font-family: 'Geomanist', Helvetica, sans-serif;
-		padding: 0px 40px
+		padding: 0 40px
 	}
 }

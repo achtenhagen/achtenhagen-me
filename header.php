@@ -28,6 +28,6 @@
 					</li>
 				</ul>
 				<p>Hello. I’m Maurice, a software developer from Germany, based near New York City.</p>
-			</section>			
+			</section>
 		</header>
 		<main>
