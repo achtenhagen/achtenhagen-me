@@ -1,5 +1,5 @@
 <?php require_once('header.php') ?>
-<section id="about">	
+<section id="about">
 	<h1>About</h1>
 	<img src="images/maurice.jpg" alt="Maurice Achtenhagen" />
 	<p>I build iOS and web applications from the ground up. I have great attention to detail and I consider myself to be a fast learner. My deep appreciation for good user experience is the driving force for all of my projects; it is my true passion.</p>
