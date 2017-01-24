@@ -1,7 +1,7 @@
 <?php require_once('header.php') ?>
 <section id="work">
 	<h1>Portfolio</h1>
-	<p><strong>Limella</strong> was the concept of a social network designed to help people connect with each other, much like a dating site. The back-end of this project proved to be a challenge due to how the matching algorithm worked. This project taught me many of the design principles I use in my day-to-day work.</p>
+	<p><a href="http://limella.me" target="_blank">Limella</a> was the concept of a social network designed to help people connect with each other, much like a dating site. The back-end of this project proved to be a challenge due to how the matching algorithm worked. This project taught me many of the design principles I use in my day-to-day work.</p>
 	<img src="images/projects/limella.png" alt="Limella" />
 	<p><strong>Limella v2</strong> is designed to be a simple app the builds up a grid of your personal experiences. One important focus of this project is to create a meaningful on-boarding experience that emphasizes user privacy and security. The user experience of the first impression is the most critical in my opinion. This project is currently in development for iPhone and iPad.</p>
 	<img src="images/projects/limella_v2.png" alt="Limella v2" />
