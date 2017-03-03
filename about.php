@@ -23,4 +23,11 @@
 	<h1>Organizations</h1>
 	<p>I am a proud member of and support the <a href="https://www.eff.org/" target="_blank">Electronic Frontier Foundation</a>.</p>
 </section>
+<section id="pgp">
+	<h1>PGP/Encrypted Mail</h1>
+	<p>
+		You may send me an encrypted message using this public key:
+		<a href="https://keybase.io/achtenhagen/pgp_keys.asc?fingerprint=16e08cba15365680811313a37b2ffa95497abe64" target="_blank">497ABE64</a>.
+	</p>
+</section>
 <?php require_once('footer.php') ?>

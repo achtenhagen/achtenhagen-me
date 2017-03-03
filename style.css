@@ -176,7 +176,7 @@ p { line-height: 25px }
 	width: 100%
 }
 
-#about p, #interests p, #org p { margin-top: 40px }
+#about p, #interests p, #org p, #pgp p { margin-top: 40px }
 
 #skills ul {
 	list-style-position: inside;
