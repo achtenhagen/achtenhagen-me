@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/achtenhagen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://achtenhagen.me
+  * I am achtenhagen (https://keybase.io/achtenhagen) on keybase.
+  * I have a public key with fingerprint 16E0 8CBA 1536 5680 8113  13A3 7B2F FA95 497A BE64
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a7b730e943ae156a42a8ce19cfcbd424c5976b008befbe59ae06371a833a46e70a",
+            "fingerprint": "16e08cba15365680811313a37b2ffa95497abe64",
+            "host": "keybase.io",
+            "key_id": "7b2ffa95497abe64",
+            "kid": "0101a7b730e943ae156a42a8ce19cfcbd424c5976b008befbe59ae06371a833a46e70a",
+            "uid": "e0b0ff4fccc5835d6589ca6ab552b519",
+            "username": "achtenhagen"
+        },
+        "service": {
+            "hostname": "achtenhagen.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488575435,
+    "expire_in": 157680000,
+    "prev": "f095f83f358ccfb9a031605958f86d2c0d4b7d6dec672f6f2657d2a0fddecda8",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkn1QFGUcxw8lBNLOl5jDiHSWQpsY2L3dZ1+uKEQHDqOsiJSBgXl299ljedk7
+7pbj9RimmApU0jkJDAfmIogXQ1QaciCoSIcwUQxtNL1I0nLIgHGIkbDaY+qv+rPn
+n2ee3+/z/f5e5jmwZqUu2K8sZrEuqXRQ9Dt7m9ftOfXdeBnGW8USzFSG5aLlC+WJ
+yKFm5coiZsJwAicgwzMkjjiKhIgANKSMkBUQwQmSwIuUkRIAx9A8jrM8kngEOIhw
+mmQIyJIkpGjE4BCLwiRZsSC7zS4rqmZL0AhnBR4SgKQBzeIsQZAECUmGN0oS5ADF
+MZBHNKUJs60On0JrjocOFC1btZj2yFpu7z/4/7nvwmU7hPO4JFGSIAiAJYFIA5YT
+IA15AIw8IDgf6EB2BeYjjYZCtoqUbGhBCuaKwrSEUxaQb7e+Yf4NRWuBKMxmt6pW
+wZqn5bJV1WbySdUSm48tQnzW3y5ZvKyI2i41gRPZHbJVwUyERgqq7LMlKJYFDKBI
+EIWhYptsR1myjwCMtmXt+Mogp2Yp4VwGkFhSIgErCBLPQZwkaBxwgJVYWjQKuEjx
+jEiLSKAZo0RLRhowohHikqiFRMhivsEKFCtm0kqp0KJ5OmSLAtVCO8JcwdUrHvXX
++QXrAh5Y4ftluuCgtf98vczT+j9dcZXRne7V5S/Bd2JfeLlj3ysRtT/oWddVVNm7
+NrD8+Y2eyaafKffAQtMXug97ns54sXrlt+ydhK1FyuOhT/QPRZhnN82WNb2ZmtkR
+117C/v7VhZRT5d/35far8x7/xoY/Yp9imaXRHP2O0PGe3+KfZGKuten3OrrcmXRb
+mkHsDTjkuj7TFKOTeoIuTF5737CqHY45jignwx4URm40Tvtz5Yst/MmQ1UkVwGN7
+qOmMZ3rL1dBQev6b7Y8NXTzv/CC/feKyJ6hbypl7ZCa5uK5jPmy6Ljy16vOp1MT8
+5pGUT8JmEqOqh/qWWhKavbGhzgMBN7dmHP/Y7MnpToo/FlbZW/zRuh14JO398XB8
+/flwU8tURsxrJ/winWe9raf3bmmoPe4gD0qXO5e8bZt3m69gv25GzoszO+vNE5Zb
+A5yrOS6lIK80aV1X9Xr/O/j8qmdGwifmNgo1pVOzJ4YKTPdI6miQl4i7FPjZ3Z82
+uLff/lRVR5mDckUQfwzzvmdKe9dhzny29srg2HrmXNXusYFX6cI07ua+wEGD+XBh
+4rYaw+j1zl0Gy5p0XXpI8r3Y+w+PH6q5saehz6D0Ler5CP9db5tvffl1Snd2+n1T
+Kwd2DocYq5IX9hONvxQNd8VFbtqw7Tn3PDp3NL/+br9df6m1a/JIHbWQYAzRvfG6
+NXn/3PBbZypa/gI=
+=F/jL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/achtenhagen
+
+==================================================================
