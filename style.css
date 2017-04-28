@@ -178,6 +178,14 @@ p { line-height: 25px }
 
 #about p, #interests p, #org p, #pgp p { margin-top: 40px }
 
+#instagram-link {
+	background: url('images/icon_instagram.png') no-repeat 0 center;
+	display: inline-block;
+	height: 25px;
+	margin-top: 10px;
+	padding: 4px 0 0 25px
+}
+
 #skills ul {
 	list-style-position: inside;
 	list-style-type: upper-roman;
@@ -234,5 +242,9 @@ footer {
 	#intro p {
 		font-family: 'Geomanist', Helvetica, sans-serif;
 		padding: 0 40px
+	}
+	#instagram-link {
+		background: url('images/icon_instagram@2x.png') no-repeat 0 center;
+		background-size: 18px;
 	}
 }
