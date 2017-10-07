@@ -14,12 +14,6 @@
 					<li class="github">
 						<a href="https://github.com/achtenhagen" target="_blank"></a>
 					</li>
-					<li class="linkedin">
-						<a href="https://www.linkedin.com/in/achtenhagen" target="_blank"></a>
-					</li>
-					<li class="facebook">
-						<a href="https://www.facebook.com/machtenhagen" target="_blank"></a>
-					</li>
 					<li class="twitter">
 						<a href="https://twitter.com/achtenhagen" target="_blank"></a>
 					</li>

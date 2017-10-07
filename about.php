@@ -18,7 +18,6 @@
 <section id="interests">
 	<h1>Interests</h1>
 	<p>I have a passion for cooking foods from all around the world, taking long road trips and going hiking and rock climbing; I love the outdoors! I tend to see things differently.</p>
-	<a id="instagram-link" href="https://instagram.com/achtenhagen" target="_blank">@achtenhagen</a>
 </section>
 <section id="org">
 	<h1>Organizations</h1>
