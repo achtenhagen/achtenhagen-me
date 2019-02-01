@@ -1,49 +1,28 @@
 @font-face {
     font-family: 'Geomanist';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/regular/geomanist-regular-webfont.eot');
-    src: url('../fonts/regular/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/regular/geomanist-regular-webfont.woff2') format('woff2'),
-         url('../fonts/regular/geomanist-regular-webfont.woff') format('woff'),
-         url('../fonts/regular/geomanist-regular-webfont.ttf') format('truetype'),
-         url('../fonts/regular/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+    font-weight: 300;
+	src: url('../fonts/light/geomanist-light-webfont.woff2') format('woff2'),
+		url('../fonts/light/geomanist-light-webfont.woff') format('woff'),
+		url('../fonts/light/geomanist-light-webfont.ttf') format('truetype'),
+		url('../fonts/light/geomanist-light-webfont.svg#geomanistregular') format('svg');
 }
 
 @font-face {
-    font-family: 'Geomanist ExtraLight';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/extralight/geomanist-extralight-webfont.eot');
-    src: url('../fonts/extralight/geomanist-extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/extralight/geomanist-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/extralight/geomanist-extralight-webfont.woff') format('woff'),
-         url('../fonts/extralight/geomanist-extralight-webfont.ttf') format('truetype'),
-         url('../fonts/extralight/geomanist-extralight-webfont.svg#geomanistregular') format('svg');
+    font-family: 'Geomanist';
+    font-weight: 400;
+	src: url('../fonts/regular/geomanist-regular-webfont.woff2') format('woff2'),
+		url('../fonts/regular/geomanist-regular-webfont.woff') format('woff'),
+		url('../fonts/regular/geomanist-regular-webfont.ttf') format('truetype'),
+		url('../fonts/regular/geomanist-regular-webfont.svg#geomanistregular') format('svg');
 }
 
 @font-face {
-    font-family: 'Geomanist Light';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/light/geomanist-light-webfont.eot');
-    src: url('../fonts/light/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/light/geomanist-light-webfont.woff2') format('woff2'),
-         url('../fonts/light/geomanist-light-webfont.woff') format('woff'),
-         url('../fonts/light/geomanist-light-webfont.ttf') format('truetype'),
-         url('../fonts/light/geomanist-light-webfont.svg#geomanistregular') format('svg');
-}
-
-@font-face {
-    font-family: 'Geomanist Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/medium/geomanist-medium-webfont.eot');
-    src: url('../fonts/medium/geomanist-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/medium/geomanist-medium-webfont.woff2') format('woff2'),
-         url('../fonts/medium/geomanist-medium-webfont.woff') format('woff'),
-         url('../fonts/medium/geomanist-medium-webfont.ttf') format('truetype'),
-         url('../fonts/medium/geomanist-medium-webfont.svg#geomanistregular') format('svg');
+    font-family: 'Geomanist';
+    font-weight: 500;
+	src: url('../fonts/medium/geomanist-medium-webfont.woff2') format('woff2'),
+		url('../fonts/medium/geomanist-medium-webfont.woff') format('woff'),
+		url('../fonts/medium/geomanist-medium-webfont.ttf') format('truetype'),
+		url('../fonts/medium/geomanist-medium-webfont.svg#geomanistregular') format('svg');
 }
 
 * {
@@ -53,11 +32,11 @@
 }
 
 body {
-	background: #fff;
-	color: #2C112D;
-	font-family: 'Geomanist Light', Helvetica, sans-serif;
-	font-size: 14px;
-	height: 100%;
+	background: white;
+	color: #4b4b4b;
+	font-family: 'Geomanist', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
 	letter-spacing: 0;
 	line-height: 1
 }
@@ -67,184 +46,159 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 	padding: 0
 }
 
+a, a:visited, h1, h4 { color: black }
+
 a, a:visited {
-	color: #C7273F;
-	text-decoration: none
+	font-weight: 400;
+	text-decoration: underline
 }
 
-a:hover, a:focus, a:active { text-decoration: underline }
+h1 {
+	font-size: 26px;
+	font-weight: 400
+}
 
-ul { list-style-type: none }
+h4 {
+	font-size: 22px;
+	font-weight: 300;
+	margin-top: 40px
+}
 
 header {
-    background: url('images/header.jpg') no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    height: 320px;
-	position: relative
+	align-items: center;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.8) 100%),
+		url('images/header.jpg') no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	flex-flow: column wrap;
+	height: 100vh;
+	justify-content: space-evenly
 }
 
-header img { width: 100% }
+header p {
+	color: white;
+	font-size: 2em;
+	font-weight: 500;
+	line-height: 1.5em;
+	max-width: 60%;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
+}
 
-header .overlay {
-	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
-	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
-	bottom: 0;
-	height: 100%;
-	left: 0;
-	position: absolute;
+#contact-options {
+	display: flex;
+	justify-content: space-evenly;
 	width: 100%
 }
 
-#intro {
-	bottom: 30px;
-	color: #fff;
-	font-size: 16px;
-	left: 0;
-	position: absolute;
-	width: 100%
+#contact-options a {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+	opacity: 0.9;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
 }
 
-#intro ul { text-align: center }
-
-#intro ul li {
-	background: url('../images/social-links.png');
-	display: inline-block;
-	height: 40px;
-	margin-right: 14px;
-	width: 40px
-}
-#intro ul li:last-child { margin-right: 0 }
-#intro ul li.github   { background-position: 0 0 }
-#intro ul li.linkedin { background-position: -40px 0 }
-#intro ul li.facebook { background-position: -80px 0 }
-#intro ul li.twitter  { background-position: -120px 0 }
-#intro ul li.email    { background-position: -160px 0 }
-
-#intro ul li a {
-	display: block;
-	height: 40px;
-	width: 40px
+#photo-credits {
+	color: rgba(255, 255, 255, .85);
+	font-size: 0.8em;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
 }
 
-#intro p {
-	margin: 60px auto 0 auto;
-	max-width: 405px;
-	text-align: center
+#photo-credits a {
+	color: rgba(255, 255, 255, 1);
 }
 
 section {
 	margin: auto;
-	padding-top: 50px;
-	width: 580px
+	padding-top: 54px;
+	width: 60%
 }
 
-h1 {
-	font-family: 'Geomanist Light';
-	font-size: 26px;
-	font-weight: normal
-}
+p { line-height: 1.8em }
 
-p { line-height: 25px }
+ul { list-style-type: none }
 
-#work { padding-top: 60px }
+#work p, #about p, #interests p, #org p, #pgp p { margin-top: 32px }
 
-#work p {
-	font-size: 14px;
-	margin-top: 40px
-}
+#work img:first-of-type, #work img:last-of-type { margin-top: 60px }
 
 #work img {
 	margin-top: 20px;
 	width: 100%
 }
 
-#desc p {
-	margin-top: 20px;
-	text-align: center
-}
+#read-more { text-align: center }
 
-#about { padding-top: 60px }
+#back-to-portfolio { color: #2c2c54 }
 
-#about img {
+#author {
 	border-radius: 10px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
-	display: block;
-	margin: 40px auto 0 auto;
-	width: 100%
+	float: left;
+	margin-right: 40px;
+	width: 50%
 }
 
-#about p, #interests p, #org p, #pgp p { margin-top: 40px }
+.wrapped-content { margin-top: 40px }
 
-#instagram-link {
-	background: url('images/icon_instagram.png') no-repeat 0 center;
-	display: inline-block;
-	height: 25px;
-	margin-top: 10px;
-	padding: 4px 0 0 25px
-}
+.wrapped-content::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
 
-#skills ul {
+.emoji-list {
 	list-style-position: inside;
-	list-style-type: upper-roman;
+	list-style-type: none;
 	margin-top: 40px
 }
-#skills ul li { margin-top: 14px }
+
+.emoji-list li {
+	line-height: 1.5em;
+	margin-top: 20px
+}
 
 footer {
 	font-size: 14px;
-	margin: 60px 0 30px 0;
+	margin: 60px 0 40px 0;
 	text-align: center
 }
 
-@media only screen
-	and (min-device-width: 320px)
-	and (max-device-width: 640px) {
-		body { font-size: 16px }
-		header {
-			background: url('images/header-mobile.jpg') no-repeat center center;
-			background-size: cover;
-			-webkit-background-size: cover;
-		}
-		section {
-			padding-left: 40px;
-			padding-right: 40px;
-			width: 100%
-		}
+/* Mobile Optimizations */
 
-		#intro {
-			font-size: 14px;
-			padding: 0
-		}
+@media only screen and (min-device-width: 320px) and (max-device-width: 1366px) {
+	body, h1, h4 { font-weight: 400 }
 
-		#skills ul { list-style-position: outside }
-		#skills ul li { line-height: 25px }
+	header { background-attachment: scroll }
 }
 
-@media only screen
-	and (min-device-width: 768px)
-	and (max-device-width: 1366px) {
-		header {
-			background: url('images/header-ipad.jpg') no-repeat center center;
-			background-size: cover;
-			-webkit-background-size: cover
-		}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+	section { width: 80% }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5),
-(min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
-	#intro ul li {
-		background: url('../images/social-links@2x.png');
-		background-size: 200px 40px
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+	h1 { font-size: 1.4em }
+
+	h4 { font-size: 1.2em }
+
+	header p {
+		font-size: 1.3em;
+		max-width: 75%
 	}
-	#intro p {
-		font-family: 'Geomanist', Helvetica, sans-serif;
-		padding: 0 40px
+
+	p, .emoji-list li { font-size: 1.1em }
+
+	section {
+		padding: 50px 40px 0 40px;
+		width: 100%
 	}
-	#instagram-link {
-		background: url('images/icon_instagram@2x.png') no-repeat 0 center;
-		background-size: 18px;
+
+	#contact-options a { font-size: 1.1em }
+
+	#work img:first-of-type, #work img:last-of-type { margin-top: 40px }
+
+	#author {
+		float: none;
+		width: 100%
 	}
 }

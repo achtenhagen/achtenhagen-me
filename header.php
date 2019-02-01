@@ -7,21 +7,3 @@
 		<title>Maurice Achtenhagen</title>
 	</head>
 	<body>
-		<header>
-			<div class="overlay"></div>
-			<section id="intro">
-				<ul>
-					<li class="github">
-						<a href="https://github.com/achtenhagen" target="_blank"></a>
-					</li>
-					<li class="twitter">
-						<a href="https://twitter.com/achtenhagen" target="_blank"></a>
-					</li>
-					<li class="email">
-						<a href="mailto:maurice@achtenhagen.me"></a>
-					</li>
-				</ul>
-				<p>Hello. I’m Maurice, a software developer from Germany, based near New York City.</p>
-			</section>
-		</header>
-		<main>
