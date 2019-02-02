@@ -11,8 +11,8 @@
 	<section id="skills">
 		<h1>Skills</h1>
 		<ul class="emoji-list">
-			<li>👨‍💻 Swift, Objective-C, HTML, CSS, JS, PHP, Git, TDD, and Agile Workflow.</li>
-			<li>👨‍🎨 Sketch, Affinity Designer, Pixelmator.</li>
+			<li>👨‍💻 Swift, Objective-C, HTML & CSS, PHP, TDD, and Agile Workflow.</li>
+			<li>👨‍🎨 User interface and experience design in Sketch.</li>
 			<li>🌎 Fluent in English, German, proficient in French, and learning Spanish.</li>
 		</ul>
 	</section>
