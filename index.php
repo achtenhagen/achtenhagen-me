@@ -1,12 +1,12 @@
 <?php require_once('header.php') ?>
 <header>
-	<p>Hello. I’m Maurice, a software developer from Germany, based near New York City.</p>
+	<p>iOS Developer<br>UI &amp; UX Designer<br><span>New York City</span></p>
 	<div id="contact-options">
 		<a href="mailto:maurice@achtenhagen.me">Email</a>
 		<a href="https://github.com/achtenhagen" target="_blank">GitHub</a>
 		<a href="https://www.linkedin.com/in/achtenhagen" target="_blank">LinkedIn</a>
 	</div>
-	<div id="photo-credits">Photo by <a href="https://unsplash.com/@thomashabr">Thomas Habr</a> on <a href="https://unsplash.com/photos/wprOCzLIEYI">Unsplash</a></div>
+	<div id="photo-credits">Photo by <a href="https://unsplash.com/@trapnation">Andre Benz</a> on <a href="https://unsplash.com/photos/qJfznuTMAYA">Unsplash</a></div>
 </header>
 <main>
 	<section id="work">
