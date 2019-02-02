@@ -3,8 +3,8 @@
 	<p>iOS Developer<br>UI &amp; UX Designer<br><span>New York City</span></p>
 	<div id="contact-options">
 		<a href="mailto:maurice@achtenhagen.me">Email</a>
-		<a href="https://github.com/achtenhagen" target="_blank">GitHub</a>
 		<a href="https://www.linkedin.com/in/achtenhagen" target="_blank">LinkedIn</a>
+		<a href="https://github.com/achtenhagen" target="_blank">GitHub</a>
 	</div>
 	<div id="photo-credits">Photo by <a href="https://unsplash.com/@trapnation">Andre Benz</a> on <a href="https://unsplash.com/photos/qJfznuTMAYA">Unsplash</a></div>
 </header>
