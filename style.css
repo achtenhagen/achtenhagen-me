@@ -34,11 +34,11 @@
 }
 
 body {
-	background: white;
-	color: #4b4b4b;
+	background: #0d1114;
+	color: white;
 	font-family: 'Geomanist', Helvetica, sans-serif;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0;
 	line-height: 1
 }
@@ -48,7 +48,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 	padding: 0
 }
 
-a, a:visited, h1, h4 { color: black }
+a, a:visited, h1, h2, h4 { color: white }
 
 a, a:visited {
 	font-weight: 400;
@@ -56,19 +56,28 @@ a, a:visited {
 }
 
 h1 {
-	font-size: 26px;
-	font-weight: 400
+	color: #ff05ed;
+	cursor: default;
+	font-family: 'Damion', cursive;
+	font-size: 2em;
+	font-weight: 500;
+	text-shadow: 2px 2px 0 black
+}
+
+h2 {
+	font-size: 1.4em;
+	font-weight: 500
 }
 
 h4 {
-	font-size: 22px;
-	font-weight: 300;
-	margin-top: 40px
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-top: 60px
 }
 
 header {
 	align-items: center;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.8) 100%),
+	background: linear-gradient(to bottom, rgba(13, 17, 20, .5), #0d1114 100%),
 		url('images/times_square_nyc.jpg') no-repeat center center fixed;
 	background-size: cover;
 	display: flex;
@@ -131,24 +140,38 @@ p { line-height: 1.8em }
 
 ul { list-style-type: none }
 
-#work p, #about p, #interests p, #org p, #pgp p { margin-top: 32px }
-
-#work img:first-of-type, #work img:last-of-type { margin-top: 60px }
+#work p, #about p, #interests p, #org p, #pgp p { margin-top: 16px }
 
 #work img {
-	margin-top: 20px;
+	border-radius: 4px;
+	box-shadow: 0 5px 20px black;
+	margin: 40px 0;
 	width: 100%
 }
 
-#read-more { text-align: center }
+#work .mobile-screenshots {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%
+}
 
-#back-to-portfolio { color: #2c2c54 }
+#work .mobile-screenshots img {
+	height: 30%;
+	width: 30%
+}
+
+#work .mobile-screenshots img:first-of-type { margin-left: 0 }
+
+#work .mobile-screenshots .spacer { width: 5% }
+
+#read-more { text-align: center }
 
 #author {
 	border-radius: 10px;
+	box-shadow: 0 5px 20px black;
 	float: left;
 	margin-right: 40px;
-	width: 50%
+	width: 40%
 }
 
 .wrapped-content { margin-top: 40px }
@@ -162,13 +185,15 @@ ul { list-style-type: none }
 .emoji-list {
 	list-style-position: inside;
 	list-style-type: none;
-	margin-top: 40px
+	margin-top: 16px
 }
 
 .emoji-list li {
 	line-height: 1.5em;
-	margin-top: 20px
+	margin-top: 16px
 }
+
+.emoji-list li:first-of-type { margin-top: 0 }
 
 footer {
 	font-size: 14px;
@@ -179,8 +204,6 @@ footer {
 /* Mobile Optimizations */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 1366px) {
-	body, h1, h4 { font-weight: 400 }
-
 	header { background-attachment: scroll }
 }
 
@@ -189,10 +212,6 @@ footer {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-	h1 { font-size: 1.4em }
-
-	h4 { font-size: 1.2em }
-
 	header p {
 		font-size: 2.5em;
 		line-height: 1.7em;
@@ -208,7 +227,16 @@ footer {
 
 	#contact-options a { font-size: 1.1em }
 
-	#work img:first-of-type, #work img:last-of-type { margin-top: 40px }
+	#work .mobile-screenshots { flex-flow: column nowrap }
+
+	#work .mobile-screenshots img {
+		margin-top: 20px;
+		width: 100%
+	}
+
+	#work .mobile-screenshots img:first-of-type { margin-top: 40px }
+
+	#work .mobile-screenshots .spacer { display: none }
 
 	#author {
 		float: none;
