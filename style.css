@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Damion');
+
 @font-face {
     font-family: 'Geomanist';
     font-weight: 300;
@@ -66,8 +68,8 @@ h4 {
 
 header {
 	align-items: center;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.8) 100%),
-		url('images/header.jpg') no-repeat center center fixed;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.8) 100%),
+		url('images/times_square_nyc.jpg') no-repeat center center fixed;
 	background-size: cover;
 	display: flex;
 	flex-flow: column wrap;
@@ -77,12 +79,20 @@ header {
 
 header p {
 	color: white;
-	font-size: 2em;
-	font-weight: 500;
-	line-height: 1.5em;
+	cursor: default;
+	font-family: 'Bungee', 'Geomanist', Helvetica, sans-serif;
+	font-size: 4.5em;
+	line-height: 1.4em;
 	max-width: 60%;
 	text-align: center;
-	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
+	text-shadow: 6px 6px 0 black
+}
+
+header span {
+	color: #ff05ed;
+	font-family: 'Damion', cursive;
+	line-height: 2em;
+	text-shadow: 2px 4px 0 black
 }
 
 #contact-options {
@@ -93,11 +103,15 @@ header p {
 
 #contact-options a {
 	color: white;
+	font-family: 'Bungee', 'Geomanist', Helvetica, sans-serif;
 	font-size: 1.5em;
 	font-weight: 500;
 	opacity: 0.9;
+	text-decoration: none;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
 }
+
+#contact-options a:hover { color: #ff05ed }
 
 #photo-credits {
 	color: rgba(255, 255, 255, .85);
@@ -105,9 +119,7 @@ header p {
 	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
 }
 
-#photo-credits a {
-	color: rgba(255, 255, 255, 1);
-}
+#photo-credits a { color: rgba(255, 255, 255, 1) }
 
 section {
 	margin: auto;
@@ -182,7 +194,8 @@ footer {
 	h4 { font-size: 1.2em }
 
 	header p {
-		font-size: 1.3em;
+		font-size: 2.5em;
+		line-height: 1.7em;
 		max-width: 75%
 	}
 
