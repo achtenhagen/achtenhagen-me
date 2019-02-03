@@ -16,7 +16,7 @@
 			<p>
 				Bitcoin Price Chart compared the cost per transaction across different blockchains in an <i>easy on the eye fashion</i>. The user could toggle between a light and dark mode, making it very comfortable to read in any environment. This project was build from scratch using React (JavaScript library) and did not rely on any external dependencies.
 			</p>
-			<img id="bitcoin-price-chart" src="images/projects/crypto_price_chart.jpg" alt="Bitcoin Price Chart" />
+			<img id="bitcoin-price-chart" src="images/projects/crypto_price_chart.jpg" alt="Bitcoin Price Chart Screen" />
 		</div>
 		<div class="project">
 			<h4>Limella 2.0</h4>
@@ -24,11 +24,11 @@
 				Designed to be a simple app that builds up a grid of your personal experiences. One important focus of this project was to create a meaningful on-boarding experience that emphasizes user privacy and security. The user experience of the first impression is the most critical in my opinion.
 			</p>
 			<div class="mobile-screenshots">
-				<img src="images/projects/limella_v2_screen_01.jpg" alt="Limella v2 Screen 1" />
+				<img src="images/projects/limella_v2_screen_01.jpg" alt="Limella 2.0 Onboarding Screen 1" />
 				<div class="spacer"></div>
-				<img src="images/projects/limella_v2_screen_02.jpg" alt="Limella v2 Screen 2" />
+				<img src="images/projects/limella_v2_screen_02.jpg" alt="Limella 2.0 Onboarding Screen 2" />
 				<div class="spacer"></div>
-				<img src="images/projects/limella_v2_screen_03.jpg" alt="Limella v2 Screen 3" />
+				<img src="images/projects/limella_v2_screen_03.jpg" alt="Limella 2.0 Onboarding Screen 3" />
 			</div>
 		</div>
 		<div class="project">
@@ -69,7 +69,7 @@
 			<p>
 				My very first mobile application. It was live on the webOS App Gallery in 2011 and quickly became the most downloaded application in its category. Sea Bird supported RSS and Atom news feeds and came bundled with an RSS repository, which was hosted on my own server. This allowed users to search for and rank content.
 			</p>
-			<img src="images/projects/seabird.jpg" alt="Sea Bird" />
+			<img src="images/projects/seabird.jpg" alt="Sea Bird for webOS" />
 		</div>
 	</section>
 	<div id="read-more">Read more about me <a href="about.php">here</a></div>
