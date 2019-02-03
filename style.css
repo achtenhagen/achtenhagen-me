@@ -2,15 +2,6 @@
 
 @font-face {
     font-family: 'Geomanist';
-    font-weight: 300;
-	src: url('../fonts/light/geomanist-light-webfont.woff2') format('woff2'),
-		url('../fonts/light/geomanist-light-webfont.woff') format('woff'),
-		url('../fonts/light/geomanist-light-webfont.ttf') format('truetype'),
-		url('../fonts/light/geomanist-light-webfont.svg#geomanistregular') format('svg');
-}
-
-@font-face {
-    font-family: 'Geomanist';
     font-weight: 400;
 	src: url('../fonts/regular/geomanist-regular-webfont.woff2') format('woff2'),
 		url('../fonts/regular/geomanist-regular-webfont.woff') format('woff'),
