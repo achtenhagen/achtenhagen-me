@@ -9,7 +9,7 @@
 	src: url('../fonts/regular/geomanist-regular-webfont.woff2') format('woff2'),
 		url('../fonts/regular/geomanist-regular-webfont.woff') format('woff'),
 		url('../fonts/regular/geomanist-regular-webfont.ttf') format('truetype'),
-		url('../fonts/regular/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+		url('../fonts/regular/geomanist-regular-webfont.svg#geomanistregular') format('svg')
 }
 
 @font-face {
@@ -18,7 +18,7 @@
 	src: url('../fonts/medium/geomanist-medium-webfont.woff2') format('woff2'),
 		url('../fonts/medium/geomanist-medium-webfont.woff') format('woff'),
 		url('../fonts/medium/geomanist-medium-webfont.ttf') format('truetype'),
-		url('../fonts/medium/geomanist-medium-webfont.svg#geomanistregular') format('svg');
+		url('../fonts/medium/geomanist-medium-webfont.svg#geomanistregular') format('svg')
 }
 
 /* Default Overrides */
@@ -145,7 +145,7 @@ ul {
 	font-family: 'Bungee', 'Geomanist', Helvetica, sans-serif;
 	font-size: 1.5em;
 	font-weight: 500;
-	opacity: 0.9;
+	opacity: .9;
 	text-decoration: none;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
 }
@@ -154,7 +154,7 @@ ul {
 
 #photo-credits {
 	color: rgba(255, 255, 255, .85);
-	font-size: 0.8em;
+	font-size: .8em;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, .4)
 }
 
@@ -211,8 +211,11 @@ ul {
 	header p {
 		font-size: 2.5em;
 		line-height: 1.7em;
-		max-width: 75%
+		max-width: 75%;
+		text-shadow: 4px 4px 0 black
 	}
+
+	header span { text-shadow: 2px 2px 0 black }
 
 	li, p { font-size: 1.1em }
 
@@ -223,6 +226,7 @@ ul {
 
 	#author {
 		float: none;
+		margin-bottom: 24px;
 		width: 100%
 	}
 
@@ -231,7 +235,7 @@ ul {
 	#portfolio .mobile-screenshots { flex-flow: column nowrap }
 
 	#portfolio .mobile-screenshots img {
-		margin-top: 20px;
+		margin: 20px 0;
 		width: 100%
 	}
 
