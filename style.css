@@ -1,3 +1,6 @@
+
+/* Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Bungee|Damion');
 
 @font-face {
@@ -18,10 +21,17 @@
 		url('../fonts/medium/geomanist-medium-webfont.svg#geomanistregular') format('svg');
 }
 
+/* Default Overrides */
+
 * {
 	border: 0;
 	box-sizing: border-box;
 	outline: none
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+	padding: 0
 }
 
 body {
@@ -34,37 +44,30 @@ body {
 	line-height: 1
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ul {
-	margin: 0;
-	padding: 0
-}
-
-a, a:visited, h1, h2, h4 { color: white }
+a, a:visited, h1, h4 { color: white }
 
 a, a:visited {
 	font-weight: 400;
 	text-decoration: underline
 }
 
+footer {
+	font-size: 14px;
+	margin: 60px 0 40px 0;
+	text-align: center
+}
+
+h1, h4 { font-weight: 500 }
+
 h1 {
 	color: #ff05ed;
 	cursor: default;
 	font-family: 'Damion', cursive;
 	font-size: 2em;
-	font-weight: 500;
 	text-shadow: 2px 2px 0 black
 }
 
-h2 {
-	font-size: 1.4em;
-	font-weight: 500
-}
-
-h4 {
-	font-size: 1.2em;
-	font-weight: 500;
-	margin-top: 60px
-}
+h4 { font-size: 1.2em }
 
 header {
 	align-items: center;
@@ -95,6 +98,42 @@ header span {
 	text-shadow: 2px 4px 0 black
 }
 
+li {
+	line-height: 1.5em;
+	margin-top: 16px
+}
+
+li:first-of-type { margin-top: 0 }
+
+main {
+	margin: auto;
+	padding-top: 40px;
+	width: 60%
+}
+
+p {
+	line-height: 1.8em;
+	margin-top: 16px
+}
+
+section { padding-top: 40px }
+
+ul {
+	list-style-position: inside;
+	list-style-type: none;
+	margin-top: 16px
+}
+
+/* Custom Styles */
+
+#author {
+	border-radius: 10px;
+	box-shadow: 0 5px 20px black;
+	float: left;
+	margin-right: 40px;
+	width: 40%
+}
+
 #contact-options {
 	display: flex;
 	justify-content: space-evenly;
@@ -121,48 +160,33 @@ header span {
 
 #photo-credits a { color: rgba(255, 255, 255, 1) }
 
-section {
-	margin: auto;
-	padding-top: 54px;
-	width: 60%
-}
-
-p { line-height: 1.8em }
-
-ul { list-style-type: none }
-
-#work p, #about p, #interests p, #org p, #pgp p { margin-top: 16px }
-
-#work img {
+#portfolio img {
 	border-radius: 4px;
 	box-shadow: 0 5px 20px black;
 	margin: 40px 0;
 	width: 100%
 }
 
-#work .mobile-screenshots {
+#portfolio .mobile-screenshots {
 	display: flex;
 	flex-flow: row nowrap;
 	width: 100%
 }
 
-#work .mobile-screenshots img {
+#portfolio .mobile-screenshots img {
 	height: 30%;
 	width: 30%
 }
 
-#work .mobile-screenshots img:first-of-type { margin-left: 0 }
+#portfolio .mobile-screenshots img:first-of-type { margin-left: 0 }
 
-#work .mobile-screenshots .spacer { width: 5% }
+#portfolio .mobile-screenshots .spacer { width: 5% }
 
-#read-more { text-align: center }
+#portfolio .project { margin-top: 40px }
 
-#author {
-	border-radius: 10px;
-	box-shadow: 0 5px 20px black;
-	float: left;
-	margin-right: 40px;
-	width: 40%
+#read-more {
+	padding-top: 40px;
+	text-align: center
 }
 
 .wrapped-content { margin-top: 40px }
@@ -170,26 +194,7 @@ ul { list-style-type: none }
 .wrapped-content::after {
 	content: "";
 	clear: both;
-	display: table;
-  }
-
-.emoji-list {
-	list-style-position: inside;
-	list-style-type: none;
-	margin-top: 16px
-}
-
-.emoji-list li {
-	line-height: 1.5em;
-	margin-top: 16px
-}
-
-.emoji-list li:first-of-type { margin-top: 0 }
-
-footer {
-	font-size: 14px;
-	margin: 60px 0 40px 0;
-	text-align: center
+	display: table
 }
 
 /* Mobile Optimizations */
@@ -199,7 +204,7 @@ footer {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
-	section { width: 80% }
+	main { width: 80% }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
@@ -209,28 +214,28 @@ footer {
 		max-width: 75%
 	}
 
-	p, .emoji-list li { font-size: 1.1em }
+	li, p { font-size: 1.1em }
 
-	section {
-		padding: 50px 40px 0 40px;
+	main {
+		padding: 40px 40px 0 40px;
 		width: 100%
 	}
-
-	#contact-options a { font-size: 1.1em }
-
-	#work .mobile-screenshots { flex-flow: column nowrap }
-
-	#work .mobile-screenshots img {
-		margin-top: 20px;
-		width: 100%
-	}
-
-	#work .mobile-screenshots img:first-of-type { margin-top: 40px }
-
-	#work .mobile-screenshots .spacer { display: none }
 
 	#author {
 		float: none;
 		width: 100%
 	}
+
+	#contact-options a { font-size: 1.1em }
+
+	#portfolio .mobile-screenshots { flex-flow: column nowrap }
+
+	#portfolio .mobile-screenshots img {
+		margin-top: 20px;
+		width: 100%
+	}
+
+	#portfolio .mobile-screenshots img:first-of-type { margin-top: 40px }
+
+	#portfolio .mobile-screenshots .spacer { display: none }
 }
