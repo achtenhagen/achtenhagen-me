@@ -203,11 +203,11 @@ ul {
 	header { background-attachment: scroll }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
 	main { width: 80% }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 	header p {
 		font-size: 2.5em;
 		line-height: 1.7em;
