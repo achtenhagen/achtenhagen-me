@@ -13,7 +13,7 @@
 		<ul>
 			<li>Swift, Objective-C, HTML, CSS, SCSS, PHP, TDD, and Agile Methodologies.</li>
 			<li>User interface and experience design in Sketch.</li>
-			<li>Fluent in English, German, proficient in French, and learning Spanish.</li>
+			<li>Experience with Continuous Integration (CI) and Deployment.</li>
 		</ul>
 	</section>
 	<section id="interests">
