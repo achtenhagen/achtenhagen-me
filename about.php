@@ -21,7 +21,8 @@
 		<ul>
 			<li>I'm an aviation enthusiast with a fear of flying.</li>
 			<li>I have a passion for cooking foods from all around the world.</li>
-			<li>I enjoy rock climbing, hiking, and going on long road trips.</li>
+			<li>I enjoy rock climbing, hiking, skiing, and going on long road trips.</li>
+			<li>I am fluent in English, German, proficient in French, and actively learning Spanish.</li>
 		</ul>
 	</section>
 	<section id="org">
