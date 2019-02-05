@@ -4,8 +4,9 @@
 		<h1>About Me</h1>
 		<div class="wrapped-content">
 			<img alt="Picture of Maurice Achtenhagen" id="author" src="images/maurice.jpg" />
-			<p>I build iOS and web applications from the ground up. I have great attention to detail and I consider myself to be a fast learner. My deep appreciation for good user experience is the driving force for all of my projects; it is my true passion.</p>
-			<p>I have been exposed to many programming languages ranging from Swift to Assembly. I am very open and adaptive to new technologies and I will always be eager to learn more! My most valuable skill is my minimalistic approach to software architecture and user interface design. The best solutions are often the simplest.</p>
+			<h4>Hello, I'm Maurice.</h4>
+			<p>I build iOS and web applications from the ground up. I have great attention to detail and I consider myself to be a fast learner. My deep appreciation for good user experience is the driving force for all of my projects.</p>
+			<p>I have been exposed to many programming languages ranging from Swift to Assembly. I am very open and adaptive to new technologies and I will always be eager to learn more! My most valuable skill is my minimalistic approach to software architecture and user interface design.</p>
 		</div>
 	</section>
 	<section id="skills">
