@@ -11,7 +11,7 @@
 	<section id="skills">
 		<h4>Skills</h4>
 		<ul>
-			<li>Swift, Objective-C, HTML & CSS, PHP, TDD, and Agile Workflow.</li>
+			<li>Swift, Objective-C, HTML, CSS, SCSS, PHP, TDD, and Agile Methodologies.</li>
 			<li>User interface and experience design in Sketch.</li>
 			<li>Fluent in English, German, proficient in French, and learning Spanish.</li>
 		</ul>
