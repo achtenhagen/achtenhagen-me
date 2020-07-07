@@ -1,6 +1,6 @@
 <?php require_once('header.php') ?>
 <header>
-	<p>iOS Developer<br>UI &amp; UX Designer<br><span>New York City</span></p>
+	<p>Software Engineer<br>UI &amp; UX Designer<br><span>New York City</span></p>
 	<div id="contact-options">
 		<a href="mailto:maurice@achtenhagen.me">Email</a>
 		<a href="https://www.linkedin.com/in/achtenhagen" target="_blank">LinkedIn</a>
