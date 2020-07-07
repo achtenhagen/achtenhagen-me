@@ -5,14 +5,14 @@
 		<div class="wrapped-content">
 			<img alt="Picture of Maurice Achtenhagen" id="author" src="images/maurice.jpg" />
 			<h4>Hello, I'm Maurice.</h4>
-			<p>I build iOS and web applications from the ground up. I have great attention to detail and I consider myself to be a fast learner. My deep appreciation for good user experience is the driving force for all of my projects.</p>
-			<p>I have been exposed to many programming languages ranging from Swift to Assembly. I am very open and adaptive to new technologies and I will always be eager to learn more! My most valuable skill is my minimalistic approach to software architecture and user interface design.</p>
+			<p>I'm a software engineer interested in mobile apps and autonomous vehicles. I have great attention to detail and I consider myself to be a continuous learner.</p>
+			<p>Right now I am working at <a href="https://www.betterment.com/" target="_blank">Betterment</a> to help people build a more secure financial future.</p>
 		</div>
 	</section>
 	<section id="skills">
 		<h4>Skills</h4>
 		<ul>
-			<li>Swift, Objective-C, HTML, CSS, SCSS, PHP, TDD, and Agile Methodologies.</li>
+			<li>Swift, Dart, C++, Python, PHP, TDD, and Agile Methodologies.</li>
 			<li>User interface and experience design in Sketch.</li>
 			<li>Experience with Continuous Integration (CI) and Deployment.</li>
 		</ul>
