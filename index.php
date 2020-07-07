@@ -6,7 +6,7 @@
 		<a href="https://www.linkedin.com/in/achtenhagen" target="_blank">LinkedIn</a>
 		<a href="https://github.com/achtenhagen" target="_blank">GitHub</a>
 	</div>
-	<div id="photo-credits">Photo by <a href="https://unsplash.com/@trapnation">Andre Benz</a> on <a href="https://unsplash.com/photos/qJfznuTMAYA">Unsplash</a></div>
+	<div id="photo-credits">Photo by <a href="https://unsplash.com/@andersjilden">Anders Jildén</a> on <a href="https://unsplash.com/photos/nrLtvA05jk8">Unsplash</a></div>
 </header>
 <main>
 	<h1>Portfolio</h1>
