@@ -5,7 +5,7 @@
 		<div class="wrapped-content">
 			<img alt="Picture of Maurice Achtenhagen" id="author" src="images/maurice.jpg" />
 			<h4>Hello, I'm Maurice.</h4>
-			<p>I'm a software engineer interested in mobile apps and autonomous vehicles. I have great attention to detail and I consider myself to be a continuous learner. Right now I am working at <a href="https://www.betterment.com/" target="_blank">Betterment</a> to help people build a more secure financial future.</p>
+			<p>I'm a software engineer interested in mobile apps and autonomous vehicles. I have great attention to detail and I consider myself to be a continuous learner. Right now I am working at <a href="https://www.betterment.com/?referral_key=mauriceachtenhagen" target="_blank">Betterment</a> to help people build a more secure financial future.</p>
 			<p>As a side project, I am currently building a 1:10 scale self-driving car. The goal of this project is to learn about the technology behind autonomous vehicles and how it could be applied in the real world.</p>
 		</div>
 	</section>
