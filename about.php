@@ -3,7 +3,7 @@
 	<section id="about">
 		<h1>About Me</h1>
 		<div class="wrapped-content">
-			<img alt="Picture of Maurice Achtenhagen" id="author" src="images/maurice.jpg" />
+			<img alt="Picture of Maurice Achtenhagen" id="author" src="images/me.jpg" />
 			<h4>Hello, I'm Maurice.</h4>
 			<p>I'm interested in mobile apps, electric vehicles and helping the world transiPon to sustainable energy. I have great a1enPon to detail and I consider myself to be a conPnuous learner. Right now I am working at <a href="https://www.betterment.com/?referral_key=mauriceachtenhagen" target="_blank">Betterment</a> to help people build a more secure financial future.</p>
 		</div>
