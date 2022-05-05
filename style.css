@@ -160,11 +160,15 @@ ul {
 
 #photo-credits a { color: rgba(255, 255, 255, 1) }
 
-#portfolio img {
+#portfolio img,video {
 	border-radius: 4px;
 	box-shadow: 0 5px 20px black;
 	margin: 40px 0;
 	width: 100%
+}
+
+#portfolio video {
+	width: auto;
 }
 
 #portfolio .mobile-screenshots {

@@ -2,15 +2,27 @@
 <header>
 	<p>Software Engineer<br>UI &amp; UX Designer<br><span>New York City</span></p>
 	<div id="contact-options">
-		<a href="mailto:maurice@achtenhagen.me">Email</a>
 		<a href="https://www.linkedin.com/in/achtenhagen" target="_blank">LinkedIn</a>
 		<a href="https://github.com/achtenhagen" target="_blank">GitHub</a>
+		<a href="mailto:maurice@achtenhagen.me">Contact</a>
 	</div>
 	<div id="photo-credits">Photo by <a href="https://unsplash.com/@andersjilden">Anders Jildén</a> on <a href="https://unsplash.com/photos/nrLtvA05jk8">Unsplash</a></div>
 </header>
 <main>
 	<h1>Portfolio</h1>
 	<section id="portfolio">
+		<div class="project">
+			<h4>Enviromile</h4>
+			<p>
+				Enviromile is an Apple watchOS app that lets drivers of internal combustion engine (ICE or IC engine) cars better understand their impact on the environment, as a result of the CO<sub>2</sub> emitted while driving. Additionally, users can see their vehicle's fuel economy which is sourced from the U.S. Environmental Protection Agency.
+			</p>
+			<div class="mobile-screenshots">
+				<video width="198" height="242" controls>
+					<source src="images/projects/enviromile_demo.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
 		<div class="project">
 			<h4>Bitcoin Price Chart</h4>
 			<p>
