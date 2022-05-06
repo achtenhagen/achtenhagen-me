@@ -14,7 +14,7 @@
 		<div class="project">
 			<h4>Enviromile</h4>
 			<p>
-				Enviromile is an Apple watchOS app that lets drivers of internal combustion engine (ICE or IC engine) cars better understand their impact on the environment, as a result of the CO<sub>2</sub> emitted while driving. Additionally, users can see their vehicle's fuel economy which is sourced from the U.S. Environmental Protection Agency.
+				Enviromile is an Apple watchOS app built entirely in SwiftUI that lets drivers of internal combustion engine (ICE or IC engine) cars better understand their impact on the environment, as a result of the CO<sub>2</sub> emitted while driving. Additionally, users can see their vehicle's fuel economy which is sourced from the U.S. Environmental Protection Agency.
 			</p>
 			<div class="mobile-screenshots">
 				<video width="198" height="242" controls>
