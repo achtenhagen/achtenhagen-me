@@ -5,13 +5,13 @@
 		<div class="wrapped-content">
 			<img alt="Picture of Maurice Achtenhagen" id="author" src="images/me.jpg" />
 			<h4>Hello, I'm Maurice.</h4>
-			<p>I'm interested in mobile apps, electric vehicles and helping the world transiPon to sustainable energy. I have great a1enPon to detail and I consider myself to be a conPnuous learner. Right now I am working at <a href="https://www.betterment.com/?referral_key=mauriceachtenhagen" target="_blank">Betterment</a> to help people build a more secure financial future.</p>
+			<p>I'm a software engineer interested in mobile apps, software testing and helping the world transition to sustainable energy. I have great attention to detail and I consider myself to be a continuous learner. Right now I am working at <a href="https://www.betterment.com/?referral_key=mauriceachtenhagen" target="_blank">Betterment</a> to help people build a more secure financial future.</p>
 		</div>
 	</section>
 	<section id="skills">
 		<h4>Skills</h4>
 		<ul>
-			<li>Swift (iOS), Dart (Flutter)</li>
+			<li>Swift (iOS), Dart (Flutter), Python</li>
 			<li>HTML5, CSS3</li>
 			<li>User interface and experience design in Sketch.</li>
 			<li>Experience with Continuous Integration (CI) and Deployment.</li>
